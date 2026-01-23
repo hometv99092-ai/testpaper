@@ -1,0 +1,99 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>SSC Study Drive</title>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f1f5f9;
+    padding:20px;
+}
+h2{text-align:center}
+.folder{
+    background:#0ea5e9;
+    color:#fff;
+    padding:12px;
+    border-radius:8px;
+    margin:10px 0;
+    cursor:pointer;
+    font-weight:bold;
+}
+.sub{
+    display:none;
+    margin-left:15px;
+}
+.file{
+    background:#fff;
+    padding:10px;
+    margin:6px 0;
+    border-radius:6px;
+}
+.file a{
+    text-decoration:none;
+    color:#0f172a;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<h2>📚 SSC Question & Answer Drive</h2>
+
+<!-- পদার্থবিজ্ঞান -->
+<div class="folder" onclick="toggle('phy')">📁 পদার্থবিজ্ঞান</div>
+<div class="sub" id="phy">
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1atcsnz77t45XFIHG6iB2hKrYBghaTd8H&export=download" download>প্রশ্নপত্র</a></div>
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1yQracBtYvqVmAQ0aqh2bSEFtf0HEUuR4&export=download" download>উত্তরপত্র</a></div>
+</div>
+
+<!-- উচ্চতর গণিত -->
+<div class="folder" onclick="toggle('hmath')">📁 উচ্চতর গণিত</div>
+<div class="sub" id="hmath">
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=13wkIicld0rltEBX4GGrXlkgbzSDQ3WlJ&export=download" download>প্রশ্নপত্র</a></div>
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1L3GJMnAwX4db7azbg2bBslrahngid4SS&export=download" download>উত্তরপত্র</a></div>
+</div>
+
+<!-- English -->
+<div class="folder" onclick="toggle('eng')">📁 English</div>
+<div class="sub" id="eng">
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=138BB0iP1_oPvl9lxSf4VwwpyE_qMdaEZ&export=download" download>Question Paper</a></div>
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1oS3BZiIbfY2kGBsoxC5gxLseMd9XFlGX&export=download" download>Answer Sheet</a></div>
+</div>
+
+<!-- বাংলা ১ম পত্র -->
+<div class="folder" onclick="toggle('bn1')">📁 বাংলা ১ম পত্র</div>
+<div class="sub" id="bn1">
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1PNYnqO-hSfL4R3jHIwC1wJ6aHOWhIR7w&export=download" download>প্রশ্নপত্র</a></div>
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1zT7yztaDpb4el2Bvg_Q_BzRb5iVwh76I&export=download" download>উত্তরপত্র</a></div>
+</div>
+
+<!-- বাংলা ২য় পত্র -->
+<div class="folder" onclick="toggle('bn2')">📁 বাংলা ২য় পত্র</div>
+<div class="sub" id="bn2">
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1BAfd_WqW3AT8pLCbYB8hvX07Y-defvNG&export=download" download>প্রশ্নপত্র</a></div>
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1Xh29bYBp7Ajh5NcdCmcRvZLG8Rr2G8dJ&export=download" download>উত্তরপত্র</a></div>
+</div>
+
+<!-- গণিত -->
+<div class="folder" onclick="toggle('math')">📁 গণিত</div>
+<div class="sub" id="math">
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1YN-LEMdk76B0ozv21_o2jfvnb2TQxcRn&export=download" download>প্রশ্নপত্র</a></div>
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1h6DEiWYB4x8Lf5YfuCvJ6HNIzyqrnX9j&export=download" download>উত্তরপত্র</a></div>
+</div>
+
+<!-- ICT -->
+<div class="folder" onclick="toggle('ict')">📁 ICT</div>
+<div class="sub" id="ict">
+    <div class="file">📄 <a href="https://drive.usercontent.google.com/download?id=1tfh3ccVmhhnBb6TI6MB_4ZtNTxmRXHbJ&export=download" download>ICT File Download</a></div>
+</div>
+
+<script>
+function toggle(id){
+    const el = document.getElementById(id);
+    el.style.display = el.style.display === "block" ? "none" : "block";
+}
+</script>
+
+</body>
+</html>
