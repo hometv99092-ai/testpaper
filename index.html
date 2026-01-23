@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SSC Study Drive</title>
 <style>
-/* 🔹 Basic body + background */
 body{
     font-family: Arial, sans-serif;
     margin:0;
@@ -25,10 +24,36 @@ body::before{
     z-index:-1;
 }
 
+/* Developer Card */
+.dev-card{
+    text-align:center;
+    padding:20px;
+    margin:20px auto;
+    background:rgba(255,255,255,0.1);
+    border-radius:16px;
+    max-width:220px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+.dev-card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:3px solid #38bdf8;
+}
+.dev-card h3{
+    margin:10px 0 5px;
+    font-size:1.2rem;
+}
+.dev-card p{
+    margin:0;
+    font-size:0.9rem;
+    color:#e5e7eb;
+}
+
 /* header */
 h2{
     text-align:center;
-    margin:20px 0;
+    margin:10px 0 20px;
     font-size:1.5rem;
 }
 
@@ -73,10 +98,19 @@ h2{
     h2{font-size:1.3rem;}
     .folder{font-size:1rem; padding:12px;}
     .file{font-size:0.9rem; padding:8px;}
+    .dev-card img{width:100px;height:100px;}
+    .dev-card h3{font-size:1rem;}
 }
 </style>
 </head>
 <body>
+
+<!-- Developer Card -->
+<div class="dev-card">
+    <img src="dev.jpg" alt="Developer Photo">
+    <h3>Developed by Siam</h3>
+    <p>SSC 2026 • Science Group</p>
+</div>
 
 <h2>📚 SSC Question & Answer Drive</h2>
 
